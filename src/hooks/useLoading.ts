@@ -10,7 +10,7 @@ type ActionType = {
   groupLoad: (fun: onSubmitType) => (...params: any) => Promise<any>;
 };
 
-export default (onSubmit: onSubmitType): ActionType => {
+export default function useLoading(onSubmit?: onSubmitType): ActionType {
   const [isLoading, setIsLoading] = useState(false);
   const callRef = useRef(0);
 
@@ -19,6 +19,7 @@ export default (onSubmit: onSubmitType): ActionType => {
   const notLoad = () => setIsLoading(false);
 
   const handleActionLoad: onSubmitType = async (...params: any[]) => {
+    if (!onSubmit) return;
     load();
     const result = await onSubmit(...params);
     notLoad();
@@ -45,4 +46,4 @@ export default (onSubmit: onSubmitType): ActionType => {
     handleActionLoad,
     groupLoad,
   };
-};
+}
