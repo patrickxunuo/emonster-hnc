@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccb4175-34ac-4b71-8076-35ca6985f99d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseLeavePageNotificationExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseLoadingExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseLoadingExample2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseWindowSizeExample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-storybook.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-storybook.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useLeavePageNotification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useLeavePageNotification.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useLoading.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useLoading.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676492176359</updated>
-      <workItem from="1676492178570" duration="29408000" />
+      <workItem from="1676492178570" duration="30084000" />
     </task>
     <servers />
   </component>
