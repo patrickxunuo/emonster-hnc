@@ -18,7 +18,7 @@ const options = [
 ];
 
 const Template: ComponentStory<typeof TextAutoScroll> = (args) => (
-  <>
+  <div style={{ height: 100, display: "grid", placeItems: "center" }}>
     <div style={{ width: 100, whiteSpace: "nowrap", overflow: "hidden" }}>
       <TextAutoScroll {...args}>
         very looooooooooooooooooooooooooooooooooooooooooooooooooong text
@@ -31,7 +31,28 @@ const Template: ComponentStory<typeof TextAutoScroll> = (args) => (
         </Select.Option>
       ))}
     </Select>
-  </>
+  </div>
 );
 
 export const Default = Template.bind({});
+Default.parameters = {
+  docs: {
+    source: {
+      code: `
+<TextAutoScroll {...args}>
+  very looooooooooooooooooooooooooooooooooooooooooooooooooong text
+</TextAutoScroll>
+
+<Select defaultValue={1} style={{ width: 120 }}>
+  {options.map((item) => (
+    <Select.Option key={item.value} value={item.value}>
+      <TextAutoScroll {...args}>{item.label}</TextAutoScroll>
+    </Select.Option>
+  ))}
+</Select>
+`,
+      language: "tsx",
+      type: "auto",
+    },
+  },
+};

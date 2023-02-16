@@ -18,25 +18,23 @@ Default.parameters = {
   docs: {
     source: {
       code: `
-const [value, setValue] = useState("change the value here");
-const throttledValue = useThrottle<string>(value, interval);
+const App = ({ interval }) => {
+  const [value, setValue] = useState("change the value here");
+  const throttledValue = useThrottle<string>(value, interval);
 
-return (
-  <Space direction="vertical">
-    <Input
-      value={value}
-      onChange={(e) => setValue(e.target.value)}
-      style={{ width: 200 }}
-    />
-    <Descriptions bordered={false} column={1}>
-      <Descriptions.Item label="delay">{interval}ms</Descriptions.Item>
-      <Descriptions.Item label="value">{value}</Descriptions.Item>
-      <Descriptions.Item label="throttle value">
-        {throttledValue}
-      </Descriptions.Item>
-    </Descriptions>
-  </Space>
-);
+  return (
+    <>
+      <Input value={value} onChange={(e) => setValue(e.target.value)} />
+      <Descriptions bordered={false} column={1}>
+        <Descriptions.Item label="delay">{interval}ms</Descriptions.Item>
+        <Descriptions.Item label="value">{value}</Descriptions.Item>
+        <Descriptions.Item label="throttle value">
+          {throttledValue}
+        </Descriptions.Item>
+      </Descriptions>
+    </>
+  );
+};
       `,
       language: "tsx",
       type: "auto",

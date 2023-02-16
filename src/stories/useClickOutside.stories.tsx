@@ -24,35 +24,16 @@ const App = () => {
   });
 
   return (
-    <div
-      style={{
-        width: 400,
-        height: 400,
-        border: "1px solid #000",
-        display: "grid",
-        placeItems: "center",
-        position: "relative",
-      }}
-    >
+    <div>
       <div
         ref={eleRef}
-        style={{ width: 200, height: 200, backgroundColor }}
+        style={{ backgroundColor }}
         onClick={() => setBg("green")}
       >
         <div>click inside to set bg green</div>
         <div>click outside to set bg red</div>
       </div>
-      <div
-        onClick={clickEventProtected}
-        style={{
-          position: "absolute",
-          right: 0,
-          bottom: 0,
-          width: 100,
-          height: 100,
-          backgroundColor: "grey",
-        }}
-      >
+      <div onClick={clickEventProtected}>
         this block is protected
       </div>
     </div>

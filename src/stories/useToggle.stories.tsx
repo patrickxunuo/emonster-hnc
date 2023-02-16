@@ -19,18 +19,15 @@ Default.parameters = {
   docs: {
     source: {
       code: `
-const App: React.FunctionComponent<UseToggleExampleProps<string>> = ({ 
-  firstValue, 
-  secondValue 
-}) => {
+const App = ({ firstValue, secondValue }) => {
   const [value, toggle, reset] = useToggle(firstValue, secondValue);
   
   return (
-    <Space direction="vertical">
+    <>
       <p>value: {JSON.stringify(value)}</p>
       <Button onClick={toggle}>toggle</Button>
       <Button onClick={reset}>reset</Button>
-    </Space>
+    </>
   );
 };`,
       language: "tsx",

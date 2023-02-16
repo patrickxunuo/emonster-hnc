@@ -20,7 +20,7 @@ Default.parameters = {
   docs: {
     source: {
       code: `
-const App: React.FunctionComponent<UseMousePositionExampleProps> = ({ 
+const App = ({ 
   containerHeight, // height of the reference container
   containerWidth, // width of the reference container 
   absolute // mouse position relative to container or window 
@@ -34,9 +34,6 @@ const App: React.FunctionComponent<UseMousePositionExampleProps> = ({
       style={{
         width: containerWidth,
         height: containerHeight,
-        border: "1px solid #000",
-        display: "grid",
-        placeContent: "center",
       }}
     >
       <p>x: {x}px</p>

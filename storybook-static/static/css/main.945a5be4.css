@@ -1,0 +1,181 @@
+.double-confirm-btn {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  border: 1px var(--gray-3) solid;
+  border-radius: var(--radius-2);
+  box-shadow: none;
+  place-items: center;
+  border: 1px solid #000;
+}
+.double-confirm-btn > span {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.double-confirm-btn:hover {
+  color: #000;
+  border-color: var(--gray-3);
+  box-shadow: var(--inner-shadow-2);
+}
+.double-confirm-btn .ant-btn {
+  border: none;
+}
+.double-confirm-btn .ant-btn:hover {
+  color: #000;
+  border-color: var(--gray-3);
+  box-shadow: var(--inner-shadow-2);
+}
+.double-confirm-btn .ant-btn-loading-icon {
+  margin-right: 0.5em;
+}
+
+.double-confirm-btn.ant-btn-dangerous.ant-btn-loading,
+.double-confirm-btn.ant-btn-dangerous {
+  background: var(--red-7);
+}
+.double-confirm-btn.ant-btn-dangerous.ant-btn-loading:hover,
+.double-confirm-btn.ant-btn-dangerous:hover {
+  background: var(--red-8);
+  box-shadow: var(--inner-shadow-2);
+}
+
+.double-confirm-btn.ant-btn-save.ant-btn-loading,
+.double-confirm-btn.ant-btn-save {
+  background: var(--green-7);
+}
+.double-confirm-btn.ant-btn-save.ant-btn-loading:hover,
+.double-confirm-btn.ant-btn-save:hover {
+  background: var(--green-8);
+  box-shadow: var(--inner-shadow-2);
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.em__movable__tooltip__title {
+  position: fixed;
+  z-index: 1000;
+  padding: 8px 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  box-shadow: var(--shadow-4);
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.better-text-wrap.sliding {
+  position: relative;
+  color: grey;
+}
+
+.ellipsis-tag {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  width: 3px;
+  height: 30px;
+  background: var(--blue-7);
+}
+
+.ant-select .ellipsis-tag {
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.speed-dial-wrap {
+  position: fixed;
+  right: min(8vw, 50px);
+  bottom: min(8vw, 50px);
+  z-index: 1001;
+  transition: right 300ms ease-in-out;
+}
+.speed-dial-wrap ul {
+  border: none !important;
+}
+.speed-dial-wrap button {
+  padding: 0 !important;
+  display: grid;
+  place-items: center;
+}
+.speed-dial-wrap.hidden {
+  right: -35px;
+}
+
+.speed-dial-menu {
+  position: absolute;
+  left: -15px;
+  padding-bottom: 20px;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.speed-dial-menu:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.speed-dial-menu .ant-btn {
+  -webkit-filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));
+          filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));
+}
+.speed-dial-menu .ant-menu-item {
+  overflow: visible;
+}
+.speed-dial-menu .ant-menu-item-selected,
+.speed-dial-menu .ant-menu-item-active {
+  background-color: transparent !important;
+}
+.speed-dial-menu .action-tooltip-container {
+  position: absolute;
+  top: 5px;
+  left: -195px;
+  width: 200px;
+  text-align: end;
+  cursor: default;
+}
+.speed-dial-menu .action-tooltip-container .action-tooltip {
+  padding: 5px;
+  color: #fff;
+  font-size: 12px;
+  background: #0006;
+  border-radius: 4px;
+}
+
+.speed-dial-trigger {
+  transition: all 0.5s linear;
+}
+.speed-dial-trigger .trigger-btn,
+.speed-dial-trigger .trigger-btn-with-file {
+  width: 50px;
+  height: 50px;
+  -webkit-filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));
+          filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));
+}
+.speed-dial-trigger div {
+  transition: all 0.15s linear;
+}
+
+@-webkit-keyframes file {
+  from {
+    background-size: 0% 0%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes file {
+  from {
+    background-size: 0% 0%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+
+/*# sourceMappingURL=main.945a5be4.css.map*/

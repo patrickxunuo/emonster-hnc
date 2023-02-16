@@ -8,7 +8,11 @@ export default {
 
 const Template: ComponentStory<typeof MovableTooltip> = (args) => (
   <div
-    style={{ width: 400, height: 400, display: "grid", placeItems: "center" }}
+    style={{
+      height: 200,
+      display: "grid",
+      placeItems: "center",
+    }}
   >
     <MovableTooltip {...args} />
   </div>
@@ -16,16 +20,18 @@ const Template: ComponentStory<typeof MovableTooltip> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  children: <div>缩写缩写缩写</div>,
+  children: "缩写缩写缩写",
   title: "全称全称全称全称全称全称全称全称",
 };
-
-export const WithStyle = Template.bind({});
-WithStyle.args = {
-  children: <div>缩写缩写缩写</div>,
-  title: "全称全称全称全称全称全称全称全称",
-  floatContentStyle: {
-    color: "#189345",
-    fontSize: 16,
+Default.parameters = {
+  docs: {
+    source: {
+      code: `
+<MovableTooltip title="全称全称全称全称全称全称全称全称">
+  缩写缩写缩写
+</MovableTooltip>`,
+      language: "tsx",
+      type: "auto",
+    },
   },
 };
