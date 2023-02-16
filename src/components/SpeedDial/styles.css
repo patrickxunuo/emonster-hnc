@@ -1,0 +1,81 @@
+.speed-dial-wrap {
+  position: fixed;
+  right: min(8vw, 50px);
+  bottom: min(8vw, 50px);
+  z-index: 1001;
+  transition: right 300ms ease-in-out;
+}
+.speed-dial-wrap ul {
+  border: none !important;
+}
+.speed-dial-wrap button {
+  padding: 0 !important;
+  display: grid;
+  place-items: center;
+}
+.speed-dial-wrap.hidden {
+  right: -35px;
+}
+
+.speed-dial-menu {
+  position: absolute;
+  left: -15px;
+  padding-bottom: 20px;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.speed-dial-menu:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.speed-dial-menu .ant-btn {
+  filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));
+}
+.speed-dial-menu .ant-menu-item {
+  overflow: visible;
+}
+.speed-dial-menu .ant-menu-item-selected,
+.speed-dial-menu .ant-menu-item-active {
+  background-color: transparent !important;
+}
+.speed-dial-menu .action-tooltip-container {
+  position: absolute;
+  top: 5px;
+  left: -195px;
+  width: 200px;
+  text-align: end;
+  cursor: default;
+}
+.speed-dial-menu .action-tooltip-container .action-tooltip {
+  padding: 5px;
+  color: #fff;
+  font-size: 12px;
+  background: #0006;
+  border-radius: 4px;
+}
+
+.speed-dial-trigger {
+  transition: all 0.5s linear;
+}
+.speed-dial-trigger .trigger-btn,
+.speed-dial-trigger .trigger-btn-with-file {
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));
+}
+.speed-dial-trigger div {
+  transition: all 0.15s linear;
+}
+
+@keyframes file {
+  from {
+    background-size: 0% 0%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

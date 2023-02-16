@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "target": "es5",
     "lib": [
       "dom",
@@ -17,10 +18,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "dist"
   },
-  "include": [
-    "src"
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "src/stories"
   ]
 }

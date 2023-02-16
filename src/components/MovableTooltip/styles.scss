@@ -1,0 +1,9 @@
+.em__movable__tooltip__title {
+  position: fixed;
+  z-index: 1000;
+  padding: 8px 10px;
+  color: #fff;
+  background: rgba(0 0 0 /0.8);
+  border-radius: 5px;
+  box-shadow: var(--shadow-4);
+}

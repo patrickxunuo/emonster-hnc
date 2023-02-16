@@ -1,0 +1,16 @@
+.better-text-wrap.sliding {
+  position: relative;
+  color: grey;
+}
+
+.ellipsis-tag {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  width: 3px;
+  height: 30px;
+  background: var(--blue-7);
+}
+.ant-select .ellipsis-tag {
+  display: none;
+}

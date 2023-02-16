@@ -1,0 +1,52 @@
+.double-confirm-btn {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  border: 1px var(--gray-3) solid;
+  border-radius: var(--radius-2);
+  box-shadow: none;
+  place-items: center;
+  border: 1px solid #000;
+
+  & > span {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+
+  &:hover {
+    color: #000;
+    border-color: var(--gray-3);
+    box-shadow: var(--inner-shadow-2);
+  }
+
+  .ant-btn {
+    border: none;
+
+    &:hover {
+      color: #000;
+      border-color: var(--gray-3);
+      box-shadow: var(--inner-shadow-2);
+    }
+  }
+  .ant-btn-loading-icon {
+    margin-right: 0.5em;
+  }
+}
+.double-confirm-btn.ant-btn-dangerous.ant-btn-loading,
+.double-confirm-btn.ant-btn-dangerous {
+  background: var(--red-7);
+  &:hover {
+    background: var(--red-8);
+    box-shadow: var(--inner-shadow-2);
+  }
+}
+
+.double-confirm-btn.ant-btn-save.ant-btn-loading,
+.double-confirm-btn.ant-btn-save {
+  background: var(--green-7);
+  &:hover {
+    background: var(--green-8);
+    box-shadow: var(--inner-shadow-2);
+  }
+}

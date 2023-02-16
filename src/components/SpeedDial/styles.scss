@@ -1,0 +1,83 @@
+.speed-dial-wrap {
+  ul {
+    border: none !important;
+  }
+
+  button {
+    padding: 0 !important;
+    display: grid;
+    place-items: center;
+  }
+  position: fixed;
+  right: min(8vw, 50px);
+  bottom: min(8vw, 50px);
+  z-index: 1001;
+  transition: right 300ms ease-in-out;
+
+  &.hidden {
+    right: -35px;
+  }
+}
+
+.speed-dial-menu {
+  position: absolute;
+  left: -15px;
+  padding-bottom: 20px;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+
+  &:hover {
+    background: transparent;
+    box-shadow: none;
+  }
+  .ant-btn {
+    //overflow: hidden !important;
+    filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));
+  }
+  .ant-menu-item {
+    overflow: visible;
+  }
+  .ant-menu-item-selected,
+  .ant-menu-item-active {
+    background-color: transparent !important;
+  }
+
+  .action-tooltip-container {
+    position: absolute;
+    top: 5px;
+    left: -195px;
+    width: 200px;
+    text-align: end;
+    cursor: default;
+
+    .action-tooltip {
+      padding: 5px;
+      color: #fff;
+      font-size: 12px;
+      background: #0006;
+      border-radius: 4px;
+    }
+  }
+}
+.speed-dial-trigger {
+  transition: all 0.5s linear;
+  .trigger-btn,
+  .trigger-btn-with-file {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));
+  }
+  & div {
+    transition: all 0.15s linear;
+  }
+}
+@keyframes file {
+  from {
+    background-size: 0% 0%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
