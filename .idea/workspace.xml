@@ -2,69 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccb4175-34ac-4b71-8076-35ca6985f99d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AbbrText/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AsyncBtn/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoubleConfirmBtn/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoubleConfirmBtn/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoubleConfirmBtn/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoubleConfirmBtn/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LongTextColumn/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovableTooltip/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovableTooltip/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovableTooltip/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovableTooltip/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpeedDial/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpeedDial/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpeedDial/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpeedDial/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextAutoScroll/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextAutoScroll/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextAutoScroll/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextAutoScroll/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useClickOutside.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useDebounce.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useEffectSkipFirst.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useEventListener.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useLeavePageNotification.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useLoading.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useMousePosition.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useThrottle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTimeout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useToggle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useWindowSize.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseClickOutsideExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseDebounceExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseMousePositionExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseThrottleExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooksExample/UseToggleExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/AsyncButton.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/DoubleConfirmButton.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/LongTextColumn.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/MovableTooltip.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/SpeedDial.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/TextAutoScroll.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/useClickOutside.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/useDebounce.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/useMousePosition.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/useThrottle.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/useToggle.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676492176359</updated>
-      <workItem from="1676492178570" duration="19764000" />
+      <workItem from="1676492178570" duration="20409000" />
     </task>
     <servers />
   </component>
