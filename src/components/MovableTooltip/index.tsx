@@ -23,7 +23,6 @@ const MovableTitle: React.FunctionComponent<MovableTitleProps> = ({
   const { x, y } = useMousePosition(parentRef);
 
   useEffect(() => {
-    console.log(1);
     if (elRef && elRef.current) {
       setElHeight(elRef.current.offsetHeight);
       setElWidth(elRef.current.offsetWidth);
