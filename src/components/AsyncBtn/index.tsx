@@ -3,7 +3,7 @@ import { Button } from "antd";
 import { useLoading } from "../../hooks";
 import type { ButtonProps } from "antd/es/button/button";
 
-interface AsyncBtnProps extends ButtonProps {
+export interface AsyncBtnProps extends ButtonProps {
   children: React.ReactNode | string;
   onClick: (...params: any[]) => Promise<any>;
   loading?: boolean;

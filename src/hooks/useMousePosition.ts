@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import useWindowSize from "./useWindowSize";
 
 type MouseCoords = {
   x: number;
@@ -11,7 +10,6 @@ export default function useMousePosition(
   absolute: boolean = true
 ): MouseCoords {
   const [coords, setCoords] = useState<MouseCoords>({ x: 0, y: 0 });
-  const { width, height } = useWindowSize();
 
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {

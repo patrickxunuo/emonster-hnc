@@ -124,6 +124,8 @@ You can find the documentation for emonster-hnc in the docs folder of the librar
 ##### [useLeavePageNotification](https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/?path=/story/hooks-useleavepagenotification--default)
 ##### [useLoading](https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/?path=/story/hooks-useloading--single-action)
 ##### [useMousePosition](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usemouseposition--default)
+##### [useSaveClose](http://localhost:6006/?path=/story/hooks-usesaveclose--default)
+##### [useSize](http://localhost:6006/?path=/story/hooks-usesize--default)
 ##### [useTrottle](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usethrottle--default)
 ##### [useToggle](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usetoggle--default)
 ##### [useWindowSize](https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/?path=/story/hooks-usewindowsize--default)
@@ -138,5 +140,5 @@ If you'd like to contribute to emonster-hnc, feel free to submit a pull request 
 [antd]: <https://ant.design/>
 [framer-motion]: <https://www.framer.com/motion/>
 [font-awesome]: <https://fontawesome.com/>
-[storybook]: <https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/>
+[storybook]: <https://63ed98bdfdd4823a325643f3-bysnppjrmg.chromatic.com/>
 

@@ -16,7 +16,7 @@ export const Default = Template.bind({});
 Default.args = {
   label: "click",
   secondaryText: "confirm",
-  onConfirm: () => alert("confirmed"),
+  onConfirm: async () => alert("confirmed"),
 };
 Default.parameters = {
   docs: {

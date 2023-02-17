@@ -13,9 +13,6 @@ const UseClickOutsideExample = () => {
   return (
     <div
       style={{
-        width: 400,
-        height: 400,
-        border: "1px solid #000",
         display: "grid",
         placeItems: "center",
         position: "relative",

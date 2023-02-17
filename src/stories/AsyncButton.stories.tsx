@@ -7,7 +7,9 @@ export default {
 } as ComponentMeta<typeof AsyncButton>;
 
 const Template: ComponentStory<typeof AsyncButton> = (args) => (
-  <AsyncButton {...args} />
+  <div style={{ display: "grid", placeItems: "center" }}>
+    <AsyncButton {...args}>click</AsyncButton>
+  </div>
 );
 
 const sleep = (delay: number) =>
@@ -18,7 +20,6 @@ Default.args = {
   onClick: async () => {
     await sleep(500);
   },
-  children: "click",
 };
 Default.parameters = {
   docs: {

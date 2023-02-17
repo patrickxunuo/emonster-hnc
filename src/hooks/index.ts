@@ -9,8 +9,12 @@ import useToggle from "./useToggle";
 import useMousePosition from "./useMousePosition";
 import useLeavePageNotification from "./useLeavePageNotification";
 import useThrottle from "./useThrottle";
+import useSize from "./useSize";
+import useSaveClose from "./useSaveClose";
 
 export {
+  useSaveClose,
+  useSize,
   useWindowSize,
   useDebounce,
   useTimeout,
