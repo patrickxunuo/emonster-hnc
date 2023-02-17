@@ -267,7 +267,6 @@ function useToggle(firstValue, secondValue) {
 function useMousePosition(ref, absolute) {
     if (absolute === void 0) { absolute = true; }
     var _a = React.useState({ x: 0, y: 0 }), coords = _a[0], setCoords = _a[1];
-    var _b = useWindowSize(); _b.width; _b.height;
     React.useEffect(function () {
         var handleMouseMove = function (event) {
             setCoords({

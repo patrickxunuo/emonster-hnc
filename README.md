@@ -70,6 +70,18 @@ You can find the documentation for emonster-hnc in the docs folder of the librar
 | shape         | ButtonShape            | false  | "default"   |
 | disabled      | boolean                | false  | false       |
 
+#### [InputStepper](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/components-inputstepper--default)
+
+| Props     | Type     | Required | Default Value |
+|-----------|----------|----------|---------------|
+| stepper   | number   | false    | 1             |
+| onAdd     | function | true     | -             |
+| onMinus   | function | false    | -             |
+| hideMinus | boolean  | false    | false         |
+| hideAdd   | boolean  | false    | false         |
+| setValue  | number   | true     | -             |
+| loading   | boolean  | false    | -             |
+
 
 #### [LongTextColumn](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/components-longtextcolumn--default)
 
@@ -116,15 +128,27 @@ You can find the documentation for emonster-hnc in the docs folder of the librar
 |-------|----------------|----------|---------------|
 | style | CSSProperties  | false    | -             |
 
+#### [TypeConfirmModal](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/components-typeconfirmmodal--default)
+
+| Props         | Type                  | Required | Default Value |
+|---------------|-----------------------|----------|---------------|
+| verifyString  | string                | true     | -             |
+| inputPosition | "top" &#124; "bottom" | false    | "bottom"      |
 
 ### hooks
 
 ##### [useClickOutside](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-useclickoutside--default)
+##### [useCountdown](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-usecountdown--default)
 ##### [useDebounce](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usedebounce--default)
+##### [useEventListener](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-useeventlistener--default)
+##### [useHover](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-usehover--default)
+##### [useInterval](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-useinterval--default)
 ##### [useLeavePageNotification](https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/?path=/story/hooks-useleavepagenotification--default)
 ##### [useLoading](https://63ed98bdfdd4823a325643f3-hjotyfkise.chromatic.com/?path=/story/hooks-useloading--single-action)
 ##### [useMousePosition](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usemouseposition--default)
+##### [usePrevious](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-useprevious--default)
 ##### [useSaveClose](http://localhost:6006/?path=/story/hooks-usesaveclose--default)
+##### [useScroll](https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/?path=/story/hooks-usescroll--default)
 ##### [useSize](http://localhost:6006/?path=/story/hooks-usesize--default)
 ##### [useTrottle](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usethrottle--default)
 ##### [useToggle](https://63ed98bdfdd4823a325643f3-lhqbjjxcid.chromatic.com/?path=/story/hooks-usetoggle--default)
@@ -140,5 +164,5 @@ If you'd like to contribute to emonster-hnc, feel free to submit a pull request 
 [antd]: <https://ant.design/>
 [framer-motion]: <https://www.framer.com/motion/>
 [font-awesome]: <https://fontawesome.com/>
-[storybook]: <https://63ed98bdfdd4823a325643f3-bysnppjrmg.chromatic.com/>
+[storybook]: <https://63ed98bdfdd4823a325643f3-hlkpxebdcw.chromatic.com/>
 

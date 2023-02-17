@@ -5,8 +5,11 @@ import AbbrText from "./AbbrText";
 import LongTextColumn from "./LongTextColumn";
 import TextAutoScroll from "./TextAutoScroll";
 import SpeedDial from "./SpeedDial";
+import TypeConfirmModal from "./TypeConfirmModal";
+import InputStepper from "./InputStepper";
 
 export {
+  InputStepper,
   TextAutoScroll,
   AsyncButton,
   DoubleConfirmBtn,
@@ -14,4 +17,5 @@ export {
   AbbrText,
   LongTextColumn,
   SpeedDial,
+  TypeConfirmModal,
 };

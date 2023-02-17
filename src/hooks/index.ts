@@ -11,8 +11,18 @@ import useLeavePageNotification from "./useLeavePageNotification";
 import useThrottle from "./useThrottle";
 import useSize from "./useSize";
 import useSaveClose from "./useSaveClose";
+import useHover from "./useHover";
+import useScroll from "./useScroll";
+import usePrevious from "./usePrevious";
+import useInterval from "./useInterval";
+import useCountdown from "./useCountdown";
 
 export {
+  useCountdown,
+  useInterval,
+  usePrevious,
+  useScroll,
+  useHover,
   useSaveClose,
   useSize,
   useWindowSize,
