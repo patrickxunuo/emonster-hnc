@@ -165,5 +165,5 @@ If you'd like to contribute to emonster-hnc, feel free to submit a pull request 
 [antd]: <https://ant.design/>
 [framer-motion]: <https://www.framer.com/motion/>
 [font-awesome]: <https://fontawesome.com/>
-[storybook]: <https://63ed98bdfdd4823a325643f3-jjqmnyvhul.chromatic.com/>
+[storybook]: <https://63ed98bdfdd4823a325643f3-dknjmmpyzy.chromatic.com/>
 

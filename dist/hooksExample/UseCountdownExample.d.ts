@@ -1,4 +1,3 @@
-/// <reference types="react" />
 type UseCountdownExampleType = {
     cd: number;
     interval: number;

@@ -16,4 +16,5 @@ import useScroll from "./useScroll";
 import usePrevious from "./usePrevious";
 import useInterval from "./useInterval";
 import useCountdown from "./useCountdown";
-export { useCountdown, useInterval, usePrevious, useScroll, useHover, useSaveClose, useSize, useWindowSize, useDebounce, useTimeout, useClickOutside, useEventListener, useEffectSkipFirst, useLoading, useToggle, useMousePosition, useLeavePageNotification, useThrottle, };
+import useDrag from "./useDrag";
+export { useDrag, useCountdown, useInterval, usePrevious, useScroll, useHover, useSaveClose, useSize, useWindowSize, useDebounce, useTimeout, useClickOutside, useEventListener, useEffectSkipFirst, useLoading, useToggle, useMousePosition, useLeavePageNotification, useThrottle, };

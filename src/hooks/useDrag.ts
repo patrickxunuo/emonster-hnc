@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import useEventListener from "./useEventListener";
 
 export default function useDrag(ref?: any) {
   const [dragging, setDragging] = useState(false);
@@ -18,19 +19,11 @@ export default function useDrag(ref?: any) {
     setDragging(false);
   };
 
-  useEffect(() => {
-    const target = ref && ref.current ? ref.current : window;
-    target.addEventListener("dragenter", dragenter);
-    target.addEventListener("dragleave", dragleave);
-    target.addEventListener("drop", drop);
+  const target = ref && ref.current ? ref.current : window;
 
-    return () => {
-      const target = ref && ref.current ? ref.current : window;
-      target.removeEventListener("dragenter", dragenter);
-      target.removeEventListener("dragleave", dragleave);
-      target.removeEventListener("drop", drop);
-    };
-  }, []);
+  useEventListener("dragenter", dragenter, target);
+  useEventListener("dragleave", dragleave, target);
+  useEventListener("drop", drop, target);
 
   return dragging;
 }
