@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccb4175-34ac-4b71-8076-35ca6985f99d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/InputStepper/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputStepper/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputStepper/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputStepper/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TypeConfirmModal/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useHover.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useInterval.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/usePrevious.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useScroll.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDrag.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-storybook.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-storybook.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/AsyncBtn/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/AsyncBtn/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/hooks/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useEventListener.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useEventListener.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676492176359</updated>
       <workItem from="1676492178570" duration="48856000" />
-      <workItem from="1676658455191" duration="14736000" />
+      <workItem from="1676658455191" duration="16992000" />
     </task>
     <servers />
   </component>

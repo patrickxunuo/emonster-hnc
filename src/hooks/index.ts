@@ -16,8 +16,10 @@ import useScroll from "./useScroll";
 import usePrevious from "./usePrevious";
 import useInterval from "./useInterval";
 import useCountdown from "./useCountdown";
+import useDrag from "./useDrag";
 
 export {
+  useDrag,
   useCountdown,
   useInterval,
   usePrevious,

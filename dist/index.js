@@ -372,8 +372,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z$3 = ".double-confirm-btn {\n  display: grid;\n  width: 100%;\n  overflow: hidden;\n  font-size: 12px;\n  border: 1px var(--gray-3) solid;\n  border-radius: var(--radius-2);\n  box-shadow: none;\n  place-items: center;\n  border: 1px solid #000;\n}\n.double-confirm-btn > span {\n  grid-row-start: 1;\n  grid-column-start: 1;\n}\n.double-confirm-btn:hover {\n  color: #000;\n  border-color: var(--gray-3);\n  box-shadow: var(--inner-shadow-2);\n}\n.double-confirm-btn .ant-btn {\n  border: none;\n}\n.double-confirm-btn .ant-btn:hover {\n  color: #000;\n  border-color: var(--gray-3);\n  box-shadow: var(--inner-shadow-2);\n}\n.double-confirm-btn .ant-btn-loading-icon {\n  margin-right: 0.5em;\n}\n\n.double-confirm-btn.ant-btn-dangerous.ant-btn-loading,\n.double-confirm-btn.ant-btn-dangerous {\n  background: var(--red-7);\n}\n.double-confirm-btn.ant-btn-dangerous.ant-btn-loading:hover,\n.double-confirm-btn.ant-btn-dangerous:hover {\n  background: var(--red-8);\n  box-shadow: var(--inner-shadow-2);\n}\n\n.double-confirm-btn.ant-btn-save.ant-btn-loading,\n.double-confirm-btn.ant-btn-save {\n  background: var(--green-7);\n}\n.double-confirm-btn.ant-btn-save.ant-btn-loading:hover,\n.double-confirm-btn.ant-btn-save:hover {\n  background: var(--green-8);\n  box-shadow: var(--inner-shadow-2);\n}\n";
-styleInject(css_248z$3);
+var css_248z$4 = ".double-confirm-btn {\n  display: grid;\n  width: 100%;\n  overflow: hidden;\n  font-size: 12px;\n  border: 1px var(--gray-3) solid;\n  border-radius: var(--radius-2);\n  box-shadow: none;\n  place-items: center;\n  border: 1px solid #000;\n}\n.double-confirm-btn > span {\n  grid-row-start: 1;\n  grid-column-start: 1;\n}\n.double-confirm-btn:hover {\n  color: #000;\n  border-color: var(--gray-3);\n  box-shadow: var(--inner-shadow-2);\n}\n.double-confirm-btn .ant-btn {\n  border: none;\n}\n.double-confirm-btn .ant-btn:hover {\n  color: #000;\n  border-color: var(--gray-3);\n  box-shadow: var(--inner-shadow-2);\n}\n.double-confirm-btn .ant-btn-loading-icon {\n  margin-right: 0.5em;\n}\n\n.double-confirm-btn.ant-btn-dangerous.ant-btn-loading,\n.double-confirm-btn.ant-btn-dangerous {\n  background: var(--red-7);\n}\n.double-confirm-btn.ant-btn-dangerous.ant-btn-loading:hover,\n.double-confirm-btn.ant-btn-dangerous:hover {\n  background: var(--red-8);\n  box-shadow: var(--inner-shadow-2);\n}\n\n.double-confirm-btn.ant-btn-save.ant-btn-loading,\n.double-confirm-btn.ant-btn-save {\n  background: var(--green-7);\n}\n.double-confirm-btn.ant-btn-save.ant-btn-loading:hover,\n.double-confirm-btn.ant-btn-save:hover {\n  background: var(--green-8);\n  box-shadow: var(--inner-shadow-2);\n}\n";
+styleInject(css_248z$4);
 
 var IconContext = /*#__PURE__*/React.createContext({});
 var Context = IconContext;
@@ -1799,8 +1799,8 @@ var DoubleConfirmBtn = function (_a) {
             }); }, size: size, disabled: isLoading || loading || disabled }, { children: [jsxRuntime.jsx("span", __assign({ style: { visibility: state === 0 ? "visible" : "hidden" } }, { children: label })), jsxRuntime.jsx("span", __assign({ style: { visibility: state === 1 ? "visible" : "hidden" } }, { children: secondaryText }))] })) })));
 };
 
-var css_248z$2 = ".em__movable__tooltip__title {\n  position: fixed;\n  z-index: 1000;\n  padding: 8px 10px;\n  color: #fff;\n  background: rgba(0, 0, 0, 0.8);\n  border-radius: 5px;\n  box-shadow: var(--shadow-4);\n}\n";
-styleInject(css_248z$2);
+var css_248z$3 = ".em__movable__tooltip__title {\n  position: fixed;\n  z-index: 1000;\n  padding: 8px 10px;\n  color: #fff;\n  background: rgba(0, 0, 0, 0.8);\n  border-radius: 5px;\n  box-shadow: var(--shadow-4);\n}\n";
+styleInject(css_248z$3);
 
 var offsetX = 5; // positive to move right
 var offsetY = -5; // negative to move up
@@ -1867,8 +1867,8 @@ var LongTextColumn = function (props) {
                 }); } }, { children: [" ", copied ? jsxRuntime.jsx(CheckOutlined$1, {}) : jsxRuntime.jsx(CopyOutlined$1, {})] })))] })));
 };
 
-var css_248z$1 = ".better-text-wrap.sliding {\n  position: relative;\n  color: grey;\n}\n\n.ellipsis-tag {\n  position: absolute;\n  right: 0;\n  bottom: 1px;\n  width: 3px;\n  height: 30px;\n  background: var(--blue-7);\n}\n\n.ant-select .ellipsis-tag {\n  display: none;\n}\n";
-styleInject(css_248z$1);
+var css_248z$2 = ".better-text-wrap.sliding {\n  position: relative;\n  color: grey;\n}\n\n.ellipsis-tag {\n  position: absolute;\n  right: 0;\n  bottom: 1px;\n  width: 3px;\n  height: 30px;\n  background: var(--blue-7);\n}\n\n.ant-select .ellipsis-tag {\n  display: none;\n}\n";
+styleInject(css_248z$2);
 
 var Text$1 = antd.Typography.Text;
 var useResizeEffect = function (onResize, deps) {
@@ -1918,8 +1918,8 @@ var TextAutoScroll = function (_a) {
         }, ref: containerRef }, { children: [jsxRuntime.jsx(Text$1, __assign({ style: __assign({}, style) }, { children: children })), jsxRuntime.jsx(framerMotion.AnimatePresence, { children: isScrollable && !hovering && (jsxRuntime.jsx(framerMotion.motion.div, { initial: { opacity: 0 }, animate: { opacity: 1, transition: { delay: 0.5 } }, className: "ellipsis-tag" })) })] })));
 };
 
-var css_248z = ".speed-dial-wrap {\n  position: fixed;\n  right: min(8vw, 50px);\n  bottom: min(8vw, 50px);\n  z-index: 1001;\n  transition: right 300ms ease-in-out;\n}\n.speed-dial-wrap ul {\n  border: none !important;\n}\n.speed-dial-wrap button {\n  padding: 0 !important;\n  display: grid;\n  place-items: center;\n}\n.speed-dial-wrap.hidden {\n  right: -35px;\n}\n\n.speed-dial-menu {\n  position: absolute;\n  left: -15px;\n  padding-bottom: 20px;\n  overflow: visible;\n  background: transparent;\n  border: none;\n  box-shadow: none;\n}\n.speed-dial-menu:hover {\n  background: transparent;\n  box-shadow: none;\n}\n.speed-dial-menu .ant-btn {\n  filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));\n}\n.speed-dial-menu .ant-menu-item {\n  overflow: visible;\n}\n.speed-dial-menu .ant-menu-item-selected,\n.speed-dial-menu .ant-menu-item-active {\n  background-color: transparent !important;\n}\n.speed-dial-menu .action-tooltip-container {\n  position: absolute;\n  top: 5px;\n  left: -195px;\n  width: 200px;\n  text-align: end;\n  cursor: default;\n}\n.speed-dial-menu .action-tooltip-container .action-tooltip {\n  padding: 5px;\n  color: #fff;\n  font-size: 12px;\n  background: #0006;\n  border-radius: 4px;\n}\n\n.speed-dial-trigger {\n  transition: all 0.5s linear;\n}\n.speed-dial-trigger .trigger-btn,\n.speed-dial-trigger .trigger-btn-with-file {\n  width: 50px;\n  height: 50px;\n  filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));\n}\n.speed-dial-trigger div {\n  transition: all 0.15s linear;\n}\n\n@keyframes file {\n  from {\n    background-size: 0% 0%;\n  }\n  to {\n    background-size: 100% 100%;\n  }\n}\n";
-styleInject(css_248z);
+var css_248z$1 = ".speed-dial-wrap {\n  position: fixed;\n  right: min(8vw, 50px);\n  bottom: min(8vw, 50px);\n  z-index: 1001;\n  transition: right 300ms ease-in-out;\n}\n.speed-dial-wrap ul {\n  border: none !important;\n}\n.speed-dial-wrap button {\n  padding: 0 !important;\n  display: grid;\n  place-items: center;\n}\n.speed-dial-wrap.hidden {\n  right: -35px;\n}\n\n.speed-dial-menu {\n  position: absolute;\n  left: -15px;\n  padding-bottom: 20px;\n  overflow: visible;\n  background: transparent;\n  border: none;\n  box-shadow: none;\n}\n.speed-dial-menu:hover {\n  background: transparent;\n  box-shadow: none;\n}\n.speed-dial-menu .ant-btn {\n  filter: drop-shadow(0 1px 2px rgba(32, 52, 89, 0.6));\n}\n.speed-dial-menu .ant-menu-item {\n  overflow: visible;\n}\n.speed-dial-menu .ant-menu-item-selected,\n.speed-dial-menu .ant-menu-item-active {\n  background-color: transparent !important;\n}\n.speed-dial-menu .action-tooltip-container {\n  position: absolute;\n  top: 5px;\n  left: -195px;\n  width: 200px;\n  text-align: end;\n  cursor: default;\n}\n.speed-dial-menu .action-tooltip-container .action-tooltip {\n  padding: 5px;\n  color: #fff;\n  font-size: 12px;\n  background: #0006;\n  border-radius: 4px;\n}\n\n.speed-dial-trigger {\n  transition: all 0.5s linear;\n}\n.speed-dial-trigger .trigger-btn,\n.speed-dial-trigger .trigger-btn-with-file {\n  width: 50px;\n  height: 50px;\n  filter: drop-shadow(0 0.5px 5px rgba(32, 52, 89, 0.6));\n}\n.speed-dial-trigger div {\n  transition: all 0.15s linear;\n}\n\n@keyframes file {\n  from {\n    background-size: 0% 0%;\n  }\n  to {\n    background-size: 100% 100%;\n  }\n}\n";
+styleInject(css_248z$1);
 
 var Text = antd.Typography.Text;
 var SpeedDial = function (_a) {
@@ -1980,6 +1980,9 @@ var SpeedDial = function (_a) {
                                         transition: { duration: 0.15 },
                                     }, className: "action-tooltip-container" }, { children: jsxRuntime.jsx(Text, __assign({ className: "action-tooltip" }, { children: action.tooltip })) }))] })) }), index)); }) }))) })] })));
 };
+
+var css_248z = ".input-stepper .ant-input-number-handler-wrap {\n  display: none;\n}\n";
+styleInject(css_248z);
 
 exports.AbbrText = AbbrText;
 exports.AsyncButton = AsyncBtn;
