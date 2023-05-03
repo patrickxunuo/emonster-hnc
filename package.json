@@ -6,7 +6,7 @@
   "repository": "https://github.com/patrickxunuo/emonster-hnc",
   "homepage": "https://github.com/patrickxunuo/emonster-hnc",
   "license": "MIT",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
