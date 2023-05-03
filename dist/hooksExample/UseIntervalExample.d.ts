@@ -1,3 +1,4 @@
+/// <reference types="react" />
 type UseIntervalExampleProps = {
     interval: number;
 };

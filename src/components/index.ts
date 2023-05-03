@@ -1,21 +1,9 @@
-import AsyncButton from "./AsyncBtn";
-import DoubleConfirmBtn from "./DoubleConfirmBtn";
-import MovableTooltip from "./MovableTooltip";
-import AbbrText from "./AbbrText";
-import LongTextColumn from "./LongTextColumn";
-import TextAutoScroll from "./TextAutoScroll";
-import SpeedDial from "./SpeedDial";
-import TypeConfirmModal from "./TypeConfirmModal";
-import InputStepper from "./InputStepper";
-
-export {
-  InputStepper,
-  TextAutoScroll,
-  AsyncButton,
-  DoubleConfirmBtn,
-  MovableTooltip,
-  AbbrText,
-  LongTextColumn,
-  SpeedDial,
-  TypeConfirmModal,
-};
+export { default as AsyncButton } from "./AsyncBtn";
+export { default as DoubleConfirmBtn } from "./DoubleConfirmBtn";
+export { default as MovableTooltip } from "./MovableTooltip";
+export { default as AbbrText } from "./AbbrText";
+export { default as LongTextColumn } from "./LongTextColumn";
+export { default as TextAutoScroll } from "./TextAutoScroll";
+export { default as SpeedDial } from "./SpeedDial";
+export { default as TypeConfirmModal } from "./TypeConfirmModal";
+export { default as InputStepper } from "./InputStepper";

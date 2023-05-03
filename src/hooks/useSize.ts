@@ -1,7 +1,7 @@
 import { useState, useEffect, RefObject } from "react";
 
 export default function useSize(ref: RefObject<HTMLElement>) {
-  const [size, setSize] = useState({});
+  const [size, setSize] = useState<DOMRectReadOnly>(new DOMRectReadOnly());
 
   useEffect(() => {
     if (ref.current == null) return;
