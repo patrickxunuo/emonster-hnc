@@ -3,10 +3,11 @@
   "author": {
     "name": "Patrick Xu"
   },
+  "type": "module",
   "repository": "https://github.com/patrickxunuo/emonster-hnc",
   "homepage": "https://github.com/patrickxunuo/emonster-hnc",
   "license": "MIT",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
